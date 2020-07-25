@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  c=0
+  array.each {
+    |number| array[c]=number*number
+    c=c+1
+  }
+  
 end
